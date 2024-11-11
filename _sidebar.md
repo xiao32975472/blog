@@ -1,9 +1,9 @@
-* 简介
+* **简介**
     * [easyio库概况](md/easyio_lib.md)
     * [配套开发板概况](md/esp32_iot_kit.md)
-* 中间件
+* **中间件**
     * [Redis使用](md/redis.md)    
-* Demo&API
+* **Demo&API**
     * [01_blink](md/01_blink.md)
     * [02_ledBlink](md/02_ledBlink.md)
     * [03_easyio_led](md/03_easyio_led.md)
