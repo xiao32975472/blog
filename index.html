@@ -25,6 +25,14 @@
         noData: '找不到结果',
         depth: 3,
       },
+
+      auth: {
+        enable: true, // 是否开启
+        use: "sha256",
+        password: "123", // md5密码
+        title: "Redis使用", // 设置标题
+        paths: ["^/md"] // 需要认证的路径，支持正则表达式匹配
+      }     
     }
   </script>
   <!-- Docsify v4 -->
@@ -41,6 +49,10 @@
   <script src="script/prism-shell-session.min.js"></script>
   <script src="script/prism-python.min.js"></script>
   <script src="script/prism-http.min.js"></script>
+
+<!-- 身份认证 -->
+<script src="https://cdn.jsdelivr.net/npm/js-sha256@0.9.0/build/sha256.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsify-auth@1.2.0/dist/docsify-auth.min.js"></script>
   <!-- 主题 -->
  <!-- <link rel="stylesheet" href="css/buble.css">-->
   <!--<link rel="stylesheet" href="css/dark.css">-->
