@@ -11,4 +11,4 @@
 - 众多主题
 
 [GitHub](https://github.com/xiao32975472/blog/)
-[Get Started](#README)
+[Get Started](#/README)
